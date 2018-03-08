@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Python Flask Bucket List App</title>
+
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/index.css" rel="stylesheet">
+    <style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills w3-right w3-blue" padding: 20px>
+                    <li role="presentation" class="active"><a style = "text-decoration: none"; href="/">Home</a>
+                    </li>
+                    <li role="presentation" padding-left:20px><a style = "text-decoration: none"; href="showSignIn">Sign In</a>
+                    </li>
+                    <li role="presentation" padding-left:20px><a style = "text-decoration: none"; href="showSignUp">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted" margin-top=1px margin-bottom=1px padding-top=10px padding-botton=10px>Python Flask App</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Bucket List App</h1>
+            <p class="lead"></p>
+            <p><a class="btn btn-lg btn-success" href="showSignUp" role="button">Sign up today</a>
+            </p>
+        </div>
+
+        <div class="row marketing">
+
+        </div>
+
+        <footer class="footer">
+            <p>&copy; KG 2018</p>
+        </footer>
+
+    </div>
+</body>
+</html>
